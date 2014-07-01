@@ -1,0 +1,101 @@
+
+@import 'http://fonts.googleapis.com/css?family=Oswald';
+@import url(http://fonts.googleapis.com/css?family=Lato);
+body{padding:0 10% 0 10%; background: silver; font-family:'Lato';}
+.contact{color: blue;font-size:25px; text-shadow: 0 1px orange; text-align:center;}
+h1{font-family:'Oswald'; font-size:65px; text-shadow:0 5px 0 grey;
+	padding-top:20px;
+	text-align:center; background-color:#DCDCDC; color:blue; 
+	background:white;
+	}
+.headerbreak{
+	border:3px dashed grey;
+}
+.sectionbreak{
+	border:2px dashed grey;
+}
+
+h2{font-family:'Oswald';font-size:1.50em; font-weight:bold; text-decoration:underline;}
+h3{font-family:'Oswald', sans-serif;font-size:1.25em; }
+a:hover{color:orange;}
+.form{
+	border:15px solid navy; 
+	padding:0 60px 0 60px; font-size:1.25em;
+	background-color:#505050;
+		}
+
+.opaqueback{
+	background:url(stars.png);
+	border:3px dashed grey;
+	padding:0px 150px 0px 150px;
+}
+.smoke{
+	background:white;
+	color:black;
+	opacity:0.8;
+}
+.form, .opaqueback,.smoke{
+  box-sizing:border-box;
+  
+}
+.groupings{
+	text-align:center;
+}
+ul
+{
+	list-style-type:none;
+}
+.left{
+	/*left float or computer skills heading*/
+	float:left;
+	display:inline-block;
+}
+.right{
+	/*right float or hobbies heading*/
+	float:right;
+	display:inline-block;
+	padding-right:30px;
+}
+
+
+.left,.right{
+	margin-top:-10px;
+}
+.subInterests{
+	border:3px solid black;
+	border-radius:5px;
+	box-shadow:0 3px;
+	background-color:lightgrey;
+	width:200px;
+	margin-left: 40px;
+	color:black;
+}
+.subInterests:hover{
+	background-color:white;
+	color:blue;
+}
+ .container{
+	
+	margin-left: auto;
+	margin-right:auto;
+	max-width:600px;
+
+}
+.bachelor{
+	margin-top:-20px;
+	padding-right:20px;
+}
+
+.container:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+/*.holder{
+	/*controls space between primary section heading and list headings*/
+/*	margin-top:-10px;
+}*/
+
+
