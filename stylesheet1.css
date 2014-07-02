@@ -100,10 +100,10 @@ ul
 }*/
 @media only screen (max-device-width:480px){
 	h1{
-		font-size:50px;
+		font-size:40px;
 	}
 	a{
-		font-size:1.10em;
+		font-size:1em;
 	}
 }
 
