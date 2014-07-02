@@ -98,5 +98,13 @@ ul
 	/*controls space between primary section heading and list headings*/
 /*	margin-top:-10px;
 }*/
+@media only screen (max-device-width:480px){
+	h1{
+		font-size:50px;
+	}
+	a{
+		font-size:1.10em;
+	}
+}
 
 
